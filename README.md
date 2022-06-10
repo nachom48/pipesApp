@@ -1,27 +1,39 @@
-# PipesApp
+# Pipes App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
+Pagina explicativa y aplicativa del uso de Pipes tanto nativos de Angular como personalizados.
 
-## Development server
+Versión online [Aquí](https://computadorasmunoz.vercel.app/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este proyecto fue maquetado principalmente con [Create React App](https://github.com/facebook/create-react-app). 
 
-## Code scaffolding
+# Tabla de contenidos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Instalación](#Instalación)
+- [Uso](#Uso)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Instalación 
 
-## Running unit tests
+- Clonar el repositorio.
+- Utilizar `npm install` en el directorio raiz.
+- Luego `ng serve`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Librerias utilizadas
 
-## Running end-to-end tests
+-Ng Prime
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Uso
 
-## Further help
+El sitio posee una pagina de inicio, una navbar con sus categorias.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+En el inicio se visualizan algunos pipes de angular. 
+
+
+
+### Navegando el Sitio
+
+![](src/assets/example-page.gif)
+
+# Creditos
+
+Este trabajo fue desarrollado por [@nachom48](https://github.com/nachom48) durante el curso de Udemy  dictado por [@Fernando Herrera]
