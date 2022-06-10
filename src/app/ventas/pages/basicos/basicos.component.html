@@ -1,0 +1,70 @@
+<div class="text-layout">
+  <h1>Pipes</h1>
+  <p>
+    Pipes incluidos en Angular - Usualmente en el Commun Module.
+  </p>
+</div>
+
+<div class="grid">
+  <div class="col-4">
+    <p-card header   ="uppercase"
+            [subheader]="nombreLower | uppercase"
+            >{{nombreLower | uppercase}}
+
+    </p-card>
+  </div>
+  <div class="col-4" >
+    <p-card header   ="lowercase"
+    [subheader]="nombreLower | lowercase"
+    >{{nombreUpper | lowercase}}
+
+</p-card>
+  </div>
+  <div class="col-4" >
+    <p-card header   ="titleclase"
+    [subheader]="nombreCompleto | titlecase"
+    >{{nombreCompleto | titlecase}}
+  </p-card>
+  </div>
+  <div class="col-4" >
+    <p-card header   ="Date | Fecha | Pipe"
+    subheader="Pipe para manejar las fechas"
+    >
+    <ul>
+      <li>
+        Fecha = {{fecha}}
+      </li>
+      <li>
+       Fecha | date = {{fecha | date}}
+      </li>
+      <li>
+       Fecha | date:'short' = {{fecha | date:'short'}}
+      </li>
+      <li>
+        Fecha | date:'long' = {{fecha | date:'long'}}
+       </li>
+       <li>
+        Fecha Personalziada = {{fecha | date:'MMMMM'}}
+       </li>
+       <li>
+        Fecha Personalziada = {{fecha | date:'MMMM dd , yyyy'}}
+       </li>
+    </ul>
+    <hr>
+    <ul>
+      <li>
+        Fecha | date:'long':GMT-6 = {{fecha | date:'long':'GMT-6'}}
+
+      </li>
+      <li>
+        Fecha | date:'long':'':en = {{fecha | date:'long':'':"en"}}
+
+      </li>
+    </ul>
+
+  </p-card>
+  </div>
+
+<!--
+Si no se le ponen llaves cuadradas literalmente estamos
+dandole el valor que tiene q ir  -->
