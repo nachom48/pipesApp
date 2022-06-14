@@ -2,7 +2,7 @@
 
 Pagina explicativa y aplicativa del uso de Pipes tanto nativos de Angular como personalizados.
 
-Versión online [Aquí](https://computadorasmunoz.vercel.app/)
+Versión online [Aquí](https://pipes-app-phi.vercel.app/)
 
 Este proyecto fue maquetado principalmente con [Create React App](https://github.com/facebook/create-react-app). 
 
